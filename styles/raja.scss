@@ -1,0 +1,42 @@
+.raja-cat{
+    width: 22%;
+    height: 32%;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 5em;
+
+    .head{
+        background-color: #1f1e1e;
+        position: relative;
+        width: 33%;
+        height: 61%;
+        border-radius: 5em;
+        right: 2em;
+        bottom: 2em;
+
+        .ear{
+            position: relative;
+            width:5%;
+            height:5%;
+            background-color: red;
+
+            &.right{
+                right:0;
+            }
+
+            &.left{
+                left:0;
+            }
+        }
+    }
+
+    .eye{
+        position:relative;
+        background-color:green;
+        width:10%;
+        height:10%;
+    }
+
+}
