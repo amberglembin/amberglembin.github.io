@@ -446,6 +446,9 @@ a {
     width: 8rem;
   }
 }
+.container-work-flex .box.kohls img{
+  max-width:100%;
+}
 
 @media (min-width: 700px) {
   .container-work-flex .box.kohls img {
